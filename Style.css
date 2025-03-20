@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1, h2 {
+    color: #4a4a4a;
+}
+footer {
+    background-color: #333;
+    color: white;
+}
+
+body {
+    background-color:purple;
+}
+.card{
+    box-shadow: 0px 4px 6px rgba(purple, 0, blue, alpha);
+}
