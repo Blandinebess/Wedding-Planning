@@ -1,70 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wedding Invitation</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
     body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(to bottom,purple, #eaeaea);
-    animation: fade-in 2s ease-in-out;
-}
+      font-family: "Arial", sans-serif;
+      background: linear-gradient(to bottom, purple, #eaeaea);
+      animation: fade-in 2s ease-in-out;
+    }
 
-@keyframes fade-in {
-    from {
+    @keyframes fade-in {
+      from {
         opacity: 0;
-    }
-    to {
+      }
+      to {
         opacity: 1;
+      }
     }
-}
 
-.card {
-    background: rgb(219, 160, 221);
-    border-radius: 15px;
-    animation: slide-in 1.5s ease-in-out;
-}
+    .card {
+      background: rgb(219, 160, 221);
+      border-radius: 15px;
+      animation: slide-in 1.5s ease-in-out;
+    }
 
-@keyframes slide-in {
-    from {
+    @keyframes slide-in {
+      from {
         transform: translateY(-50px);
-    }
-    to {
+      }
+      to {
         transform: translateY(0);
+      }
     }
-}
 
-img {
-    border: 5px solid #ddd;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-</style>
-<body>
+    img {
+      border: 5px solid #ddd;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+  <body>
     <div class="container my-5">
-        <div class="card text-center shadow-lg border-0">
-            <div class="card-body p-5">
-                <h1 class="mb-4">You're Invited!</h1>
-                <h2 class="mb-3 text-primary">[Fouad Djibril]</h2>
-                <h3 class="mb-3">&</h3>
-                <h2 class="mb-4 text-success">[Blandine Zongo]</h2>
-                <p class="lead mb-4">Together with their families, joyfully invite you to their wedding celebration.</p>
-                <p><strong>Date:</strong> [June 20, 2026]</p>
-                <p><strong>Time:</strong> [ At 12 PM]</p>
-                <p><strong>Venue:</strong> [Wedding Venue Name & Address]</p>
-                <p class="mt-4">RSVP by <strong>[Kindly reply by January 20, 2026]</strong></p>
-                <img src="IMG_4115.JPG" width="200" alt="Art Deco & Rustic" class="img-fluid rounded mt-4">
-                <button class="btn btn-success mt-3" onclick="alert('Thank you for RSVP-ing!')">RSVP Now</button>
-            </div>
+      <div class="card text-center shadow-lg border-0">
+        <div class="card-body p-5">
+          <h1 class="mb-4">You're Invited!</h1>
+          <h2 class="mb-3 text-primary">[Fouad Djibril]</h2>
+          <h3 class="mb-3">&</h3>
+          <h2 class="mb-4 text-success">[Blandine Zongo]</h2>
+          <p class="lead mb-4">
+            Together with their families, joyfully invite you to their wedding
+            celebration.
+          </p>
+          <p><strong>Date:</strong> [June 20, 2026]</p>
+          <p><strong>Time:</strong> [ At 12 PM]</p>
+          <p>
+            <strong>Venue:</strong> [The Cornerstone Church, Statesville& 650
+            Glover St, Statesville, NC 28625]
+          </p>
+          <p class="mt-4">
+            RSVP by <strong>[Kindly reply by January 20, 2026]</strong>
+          </p>
+          <img
+            src="IMG_4115.JPG"
+            width="200"
+            alt="Art Deco & Rustic"
+            class="img-fluid rounded mt-4"
+          />
+          <button
+            class="btn btn-success mt-3"
+            onclick="alert('Thank you for RSVP-ing!')"
+          >
+            RSVP Now
+          </button>
         </div>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-</body>
+  </body>
 </html>
