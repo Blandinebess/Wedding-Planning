@@ -1,84 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wedding Planning Project- Home</title>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Blandine & Fouad Wedding</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+body {
+font-family: 'Georgia', serif;
+background-color: #1a0631;
+color: white;
+}
+h1, h2, h3 {
+font-family: 'Brush Script MT', cursive;
+color: #d4b0ff;
+}
+nav {
+background-color: #ab86d0;
+}
+section {
+padding: 60px 20px;
+}
+.map-container iframe {
+width: 100%;
+height: 300px;
+border: none;
+}
+.footer {
+background: #140326;
+color: #ccc;
+padding: 20px;
+text-align: center;
+}
+</style>
+</head>
+<body>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="bg-light p-3">
-      <div class="container my-5">
-        <h1 class="text-center text-primary">Welcome To My Wedding</h1>
-        <nav class="nav justify-content-center">
-          <a class="nav-link" href="planning.html">Planning Details</a>
-          <a class="nav-link" href="gallery.html">Gallery</a>
-        </nav>
-      </div>
-    </header>
-    <div class="card my-3">
-      <div class="card-header bg-info text-white">Introduction and Vision</div>
-      <div class="card-body">
-        <p><strong>Date:</strong>June 20, 2026</p>
-        <p><strong>Location:</strong>Statesville, NC</p>
-        <p><strong>Theme:</strong>Rustic Chic</p>
-        <p>
-          <strong>Goals:</strong>Create an elegant and memorable celebration for
-          family and friend
-        </p>
-      </div>
-      <div class="card my-3">
-        <div class="card-header bg-success text-white">Wedding Timeline</div>
-        <div class="card-body"></div>
-        <ul>
-          <li>
-            <strong>Pre-Wedding Evens:</strong>Engagement party (june 1, 2025)
-          </li>
-          <li>
-            <strong>Wedding-Day:</strong>Church Ceremony at 12 PM, Reception at
-            3 PM
-          </li>
-          <li><strong>Post-Wedding:</strong>Honeymoon starts June 15, 2026</li>
-        </ul>
-      </div>
-    </div>
-    <div class="card m-3">
-      <div class="card-header bg-warning text-white">
-        Budget and Vendor Management
-      </div>
-      <div class="card-body">
-        <p><strong>Budget:</strong>$20,000</p>
-        <p>
-          <strong>Vendor List:</strong> Venue-golden Gardens, Catering
-          -Delicious Eats, Entertainment -Gospel Sounds
-        </p>
-      </div>
-      <button id="alertButton" class="btn btn-primary">
-        Click for more Info
-      </button>
-    </div>
-    <main class="container my-4 text-center">
-      <h2>My Dream Wedding, Perfectly Planned</h2>
-      <p class="lead">
-        Welcome! Let organize the most special day of your life with ease and
-        joy.
-      </p>
-      <button id="learnMoreBtn" class="btn btn-primary">Learn More</button>
-    </main>
-    <footer class="bg-secondary text-light text-center py-3">
-      <p>&copy; 2026 Wedding Planner. Fouad Djibril & Blandine Zongo.</p>
-    </footer>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+<div class="container">
+<a class="navbar-brand" href="#">B&F Wedding</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navmenu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+<li class="nav-item"><a href="#story" class="nav-link">Our Story</a></li>
+<li class="nav-item"><a href="#events" class="nav-link">Events</a></li>
+<li class="nav-item"><a href="#rsvp" class="nav-link">RSVP</a></li>
+<li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+<li class="nav-item"><a href="#budget" class="nav-link">Budget</a></li>
+<li class="nav-item"><a href="#menu" class="nav-link">Ivory Coast Menu</a></li>
+<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
 
-    <script src="script.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<!-- Home -->
+<section id="home" class="text-center">
+<h1>You're Invited!</h1>
+<p>Join us to celebrate the wedding of Blandine & Fouad</p>
+<p><strong>Saturday, June 20th, 2026 | 1 PM | Statesville, NC</strong></p>
+</section>
+
+<!-- Our Story -->
+<section id="story">
+<div class="container">
+<h2>Our Story</h2>
+<p>From chance meeting to Tantie Kassia Shop — our journey together has been full of laughter,
+   support, and love.
+   We can't wait to share this next chapter with you.</p>
+</div>
+</section>
+
+<!-- Events -->
+<section id="events">
+<div class="container">
+<h2>Wedding Events</h2>
+<ul>
+<li><strong>Ceremony:</strong> 1:00 PM</li>
+<li><strong>Reception:</strong> 3:00 PM</li>
+</ul>
+<div class="map-container mt-4">
+<iframe src="https://www.google.com/maps?q=650+Glover+St,+Statesville,+NC+28625&output=embed"></iframe>
+</div>
+</div>
+</section>
+
+<!-- RSVP -->
+<section id="rsvp">
+<div class="container">
+<h2>RSVP</h2>
+<form>
+<div class="mb-3">
+<input type="text" class="form-control" placeholder="Full Name" required />
+</div>
+<div class="mb-3">
+<input type="email" class="form-control" placeholder="Email" required />
+</div>
+<div class="mb-3">
+<select class="form-select" required>
+<option selected disabled>Will you attend?</option>
+<option>Yes, with joy!</option>
+<option>Sorry, can't make it</option>
+</select>
+</div>
+<button type="submit" class="btn btn-light">Submit</button>
+</form>
+</div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery">
+<div class="container">
+<h2>Gallery</h2>
+<p>Coming soon... 💜</p>
+</div>
+</section>
+
+<!-- Budget -->
+<section id="budget">
+<div class="container">
+<h2>Budget Tracker</h2>
+<table class="table table-dark table-bordered">
+<thead>
+<tr>
+<th>Category</th>
+<th>Estimated</th>
+<th>Actual</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>Venue</td><td>$4000</td><td>$3900</td></tr>
+<tr><td>Catering</td><td>$3000</td><td>$3100</td></tr>
+<tr><td>Decor</td><td>$1000</td><td>$950</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<!-- Ivory Coast Menu -->
+<section id="menu">
+<div class="container">
+<h2>Ivory Coast Menu</h2>
+<h4>Starters</h4>
+<ul><li>Alloco (Fried Plantains)</li><li>Avocado Salad</li></ul>
+<h4>Main Courses</h4>
+<ul><li>Attiéké with Grilled Fish</li><li>Garba (Attiéké with Tuna)</li></ul>
+<h4>Desserts</h4>
+<ul><li>Coconut Cake</li><li>Fresh Mango & Pineapple</li></ul>
+<h4>Drinks</h4>
+<ul><li>Bissap (Hibiscus Juice)</li><li>Palm Wine</li></ul>
+</div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+<div class="container">
+<h2>Contact & Venue</h2>
+<p>Cornestone Church<br>650 Glover St, Statesville, NC 28625</p>
+</div>
+</section>
+
+<!-- Footer -->
+<div class="footer">
+© 2026 Blandine & Fouad Wedding • All Rights Reserved
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
